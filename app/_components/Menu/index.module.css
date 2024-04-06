@@ -1,0 +1,45 @@
+.items {
+  display: flex;
+  color: #fff;
+  gap: 40px;
+}
+
+.button {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .nav {
+    display: none;
+  }
+
+  .nav.open {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-bg-painted);
+    color: var(--color-text-unpainted);
+    padding: 24px 16px;
+  }
+
+  .items {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .button {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .close {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+  }
+}
