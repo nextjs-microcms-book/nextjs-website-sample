@@ -1,0 +1,29 @@
+.footer {
+  padding: 16px 24px;
+  text-align: center;
+  color: var(--color-text-sub);
+  font-size: 0.8rem;
+  margin-top: 80px;
+}
+
+.nav {
+  margin-bottom: 16px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .items {
+    flex-wrap: wrap;
+    gap: 8px 0;
+  }
+  .item {
+    width: 50%;
+  }
+}
