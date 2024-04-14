@@ -11,30 +11,30 @@ export default function Menu() {
 
   return (
     <div>
-      <nav className={styles.nav} id='navigation' aria-hidden={!isOpen}>
+      <nav className={styles.nav} id="navigation" aria-hidden={!isOpen}>
         <ul className={styles.items}>
           <li>
-            <Link href='/news'>ニュース</Link>
+            <Link href="/news">ニュース</Link>
           </li>
           <li>
-            <Link href='/members'>メンバー</Link>
+            <Link href="/members">メンバー</Link>
           </li>
           <li>
-            <Link href='/contact'>お問い合わせ</Link>
+            <Link href="/contact">お問い合わせ</Link>
           </li>
         </ul>
       </nav>
       <button
-        type='button'
-        aria-controls='navigation'
+        type="button"
+        aria-controls="navigation"
         aria-expanded={isOpen}
         className={styles.button}
         onClick={toggle}
       >
         {isOpen ? (
-          <Image src='/close.svg' alt='閉じる' width={24} height={24} />
+          <Image src="/close.svg" alt="閉じる" width={24} height={24} />
         ) : (
-          <Image src='/menu.svg' alt='メニュー' width={24} height={24} />
+          <Image src="/menu.svg" alt="メニュー" width={24} height={24} />
         )}
       </button>
     </div>
