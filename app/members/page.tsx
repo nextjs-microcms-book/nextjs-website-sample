@@ -53,7 +53,7 @@ export default function Page() {
             <li key={member.id} className={styles.list}>
               <Image
                 src={member.image.url}
-                alt=''
+                alt=""
                 width={member.image.width}
                 height={member.image.height}
                 className={styles.image}
