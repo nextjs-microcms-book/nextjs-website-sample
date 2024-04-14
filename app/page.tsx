@@ -51,8 +51,8 @@ export default function Home() {
         </div>
         <Image
           className={styles.bgimg}
-          src="/img-mv.jpg"
-          alt=""
+          src='/img-mv.jpg'
+          alt=''
           width={4000}
           height={1200}
         />
@@ -61,7 +61,7 @@ export default function Home() {
         <h2 className={styles.newsTitle}>News</h2>
         <NewsList news={sliceData} />
         <div className={styles.newsLink}>
-          <ButtonLink href="/news">もっとみる</ButtonLink>
+          <ButtonLink href='/news'>もっとみる</ButtonLink>
         </div>
       </section>
     </>
