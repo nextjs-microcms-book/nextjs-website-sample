@@ -6,13 +6,13 @@ export default function Footer() {
       <nav className={styles.nav}>
         <ul className={styles.items}>
           <li className={styles.item}>
-            <a href='/news'>ニュース</a>
+            <a href="/news">ニュース</a>
           </li>
           <li className={styles.item}>
-            <a href='/members'>メンバー</a>
+            <a href="/members">メンバー</a>
           </li>
           <li className={styles.item}>
-            <a href='/contact'>お問い合わせ</a>
+            <a href="/contact">お問い合わせ</a>
           </li>
         </ul>
       </nav>
