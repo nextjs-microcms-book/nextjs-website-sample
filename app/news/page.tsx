@@ -4,7 +4,7 @@ import Pagination from '@/app/_components/Pagination';
 import SearchField from '@/app/_components/SearchField';
 import { NEWS_LIST_LIMIT } from '@/app/_constants';
 
-export const revalidate = 0;
+export const revalidate = 60;
 
 export default async function Page() {
   const { contents: news, totalCount } = await getNewsList({
