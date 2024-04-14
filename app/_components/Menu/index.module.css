@@ -13,7 +13,7 @@
     display: none;
   }
 
-  .nav.open {
+  .nav[aria-hidden='false'] {
     display: block;
     position: fixed;
     top: 0;
@@ -37,7 +37,7 @@
     cursor: pointer;
   }
 
-  .close {
+  .button[aria-expanded='true'] {
     position: absolute;
     top: 24px;
     right: 16px;
