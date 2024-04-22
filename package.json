@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "14.1.4",
     "classnames": "^2.5.1",
     "dayjs": "1.11.10",
     "microcms-js-sdk": "3.1.0",
