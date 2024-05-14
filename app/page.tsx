@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { getNewsList } from '@/app/_libs/microcms';
 import { TOP_NEWS_LIMIT } from '@/app/_constants';
 import NewsList from '@/app/_components/NewsList';
-import ButtonLink from './_components/ButtonLink';
+import ButtonLink from '@/app/_components/ButtonLink';
 
 export default async function Home() {
   const data = await getNewsList({
