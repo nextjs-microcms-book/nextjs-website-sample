@@ -2,7 +2,7 @@ import styles from './page.module.css';
 import Image from 'next/image';
 
 import NewsList from '@/app/_components/NewsList';
-import ButtonLink from './_components/ButtonLink';
+import ButtonLink from '@/app/_components/ButtonLink';
 import { News } from '@/app/_libs/microcms';
 
 const data: { contents: News[] } = {
